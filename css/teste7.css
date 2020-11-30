@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+    background-color: rgb(191, 168, 147);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;       
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(166, 75, 55);
+    font-family: 'Cabin', sans-serif;
+}
+header img{
+    width: 2rem;
+    height: 2rem;
+}
+main{
+    flex-grow: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0;
+}
+main h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: 'Cabin', sans-serif;
+}
+main ul{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    margin: 3rem;
+    font-family: 'Cabin', sans-serif;
+}
+ul img{
+    width: 2rem;
+    height: 2rem;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: .1rem solid rgb(0, 0, 0);
+    margin-top: 10rem;
+    font-family: 'Cabin', sans-serif;
+    background-color: rgb(166, 75, 55);
+}
