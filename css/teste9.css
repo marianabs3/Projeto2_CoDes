@@ -60,19 +60,6 @@ ul li{
     margin: 2rem;
     font-family: 'Cabin', sans-serif;
 }
-ul.passo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.passo li{
-    font-family: 'Source Serif Pro', serif;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-    margin-left: 0rem;
-    font-size: 1rem;
-    padding: 0rem;
-}
 ul img{
     width: 2rem;
     height: 2rem;
