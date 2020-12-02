@@ -118,10 +118,9 @@ ol li{
     position: fixed;
     justify-content: center;
     align-items: center;
-    bottom: 6.5rem;
-    left: 6rem;
-    width: 60%;
-    height: 20%;
+    bottom: 5rem;
+    left: 5rem;
+    height: 10rem;
     border: .5rem solid rgb(166, 75, 55);
     border-radius: 0.6rem;
     background-color: rgb(191, 168, 147);
